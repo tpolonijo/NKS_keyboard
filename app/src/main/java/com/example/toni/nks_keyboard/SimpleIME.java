@@ -27,9 +27,6 @@ public class SimpleIME extends InputMethodService implements KeyboardView.OnKeyb
         keyboard = new Keyboard(this, R.xml.qwertz);
         kv.setKeyboard(keyboard);
         kv.setOnKeyboardActionListener(this);
-
-        //Log.e(String.valueOf(key6.label), String.valueOf(key6.text));
-        //Log.e("pogreska", String.valueOf(keys.size()));
         return kv;
     }
 
@@ -52,19 +49,19 @@ public class SimpleIME extends InputMethodService implements KeyboardView.OnKeyb
         key9 = keys.get(8);
         key0 = keys.get(9);
         if(primaryCode == 65){
-//            key0.width = key0.width/(80/9);
-//            key1.width = key1.width/(80/9);
-//            key2.width = key2.width/(80/9);
-//            key3.width = key3.width/(80/9);
-//            key4.width = key4.width/(80/9);
-//            key5.width = key5.width/(80/9);
-            key6.width = key6.width*3;
-//            key7.width = key7.width/(80/9);
-//            key8.width = key8.width/(80/9);
-//            key9.width = key9.width/(80/9);
+//            key0.width = key0.width/(20/9);
+//            key1.width = key1.width/(20/9);
+//            key2.width = key2.width/(20/9);
+//            key3.width = key3.width/(20/9);
+//            key4.width = key4.width/(20/9);
+//            key5.width = key5.width/(20/9);
+            key6.width = key6.width*2;
+//            key7.width = key7.width/(20/9);
+//            key8.width = key8.width/(20/9);
+//            key9.width = key9.width/(20/9);
         }
         if(primaryCode == 83){
-            //key6.width = key6.width
+            key6.width = key6.width/2;
         }
         kv.invalidateAllKeys();
         //onUpdateViewShown();
@@ -123,8 +120,4 @@ public class SimpleIME extends InputMethodService implements KeyboardView.OnKeyb
 
     }
 
-    public void onUpdateViewShown() {
-        kv.invalidateAllKeys();
-
-    }
 }
