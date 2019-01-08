@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    >
+    <Row>
+        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left" />
+        <Key android:codes="50" android:keyLabel="2" />
+        <Key android:codes="51" android:keyLabel="3" />
+        <Key android:codes="52" android:keyLabel="4" />
+        <Key android:codes="53" android:keyLabel="5" />
+        <Key android:keyWidth="10%p" android:codes="54" android:keyLabel="6" />
+        <Key android:codes="55" android:keyLabel="7" />
+        <Key android:codes="56" android:keyLabel="8" />
+        <Key android:codes="57" android:keyLabel="9" />
+        <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:id="@+id/keyS" android:keyWidth="10%p" android:codes="352" android:keyLabel="Š" android:keyEdgeFlags="left" />
+        <Key android:keyWidth="10%p" android:codes="272" android:keyLabel="Đ" />
+        <Key android:keyWidth="10%p" android:codes="69" android:keyLabel="E" />
+        <Key android:keyWidth="10%p" android:codes="82" android:keyLabel="R" />
+        <Key android:keyWidth="10%p" android:codes="84" android:keyLabel="T" />
+        <Key android:keyWidth="10%p" android:codes="90" android:keyLabel="Z" />
+        <Key android:keyWidth="10%p" android:codes="85" android:keyLabel="U" />
+        <Key android:keyWidth="10%p" android:codes="73" android:keyLabel="I" />
+        <Key android:keyWidth="10%p" android:codes="79" android:keyLabel="O" />
+        <Key android:keyWidth="10%p" android:codes="80" android:keyLabel="P" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:keyWidth="10%p" android:codes="65" android:keyLabel="A" android:keyEdgeFlags="left" />
+        <Key android:keyWidth="10%p" android:codes="83" android:keyLabel="S" />
+        <Key android:keyWidth="10%p" android:codes="68" android:keyLabel="D" />
+        <Key android:keyWidth="10%p" android:codes="70" android:keyLabel="F" />
+        <Key android:keyWidth="10%p" android:codes="71" android:keyLabel="G" />
+        <Key android:keyWidth="10%p" android:codes="72" android:keyLabel="H" />
+        <Key android:keyWidth="10%p" android:codes="74" android:keyLabel="J" />
+        <Key android:keyWidth="10%p" android:codes="75" android:keyLabel="K" />
+        <Key android:keyWidth="10%p" android:codes="76" android:keyLabel="L" />
+        <Key android:keyWidth="10%p" android:codes="268" android:keyLabel="Č" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="-1" android:keyLabel="CAPS" android:keyWidth="20%p" android:keyEdgeFlags="left" />
+        <Key android:keyWidth="10%p" android:codes="262" android:keyLabel="Ć" />
+        <Key android:keyWidth="10%p" android:codes="67" android:keyLabel="C" />
+        <Key android:keyWidth="10%p" android:codes="86" android:keyLabel="V" />
+        <Key android:keyWidth="10%p" android:codes="66" android:keyLabel="B" />
+        <Key android:keyWidth="10%p" android:codes="78" android:keyLabel="N" />
+        <Key android:keyWidth="10%p" android:codes="77" android:keyLabel="M" />
+        <Key android:keyWidth="10%p" android:codes="381" android:keyLabel="Ž" />
+        <Key android:keyWidth="10%p" android:codes="-5" android:keyLabel="DEL" android:isRepeatable="true" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:codes="0" android:keyLabel="SETTINGS" />
+        <Key android:codes="0" android:keyLabel=":)" />
+        <Key android:codes="0" android:keyLabel="NORMAL" />
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true" />
+        <Key android:codes="46" android:keyLabel="." />
+        <Key android:codes="10"
+            android:keyLabel="ENTER"
+            android:keyWidth="20%p"
+            android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>
